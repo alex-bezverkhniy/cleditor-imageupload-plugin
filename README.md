@@ -7,9 +7,8 @@ Add to your .html file next several lines.
 to "head" path:
 <head>
 	...
-	<!-- "bootstrap" styles -->
-	<link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
-	<!-- "cleditor" styles -->
+	
+	<link rel="stylesheet" media="screen" href="css/bootstrap.css"/>	
 	<link rel="stylesheet" href="js/cleditor/jquery.cleditor.css" type="text/css">
 
 	<script type="text/javascript" src="js/jquery-{version}.js"></script>	
@@ -34,9 +33,8 @@ to "body" path:
 
 <body>
 	...
-	<!-- Target field -->
 	<textarea id="input" name="input"></textarea>
-	<!-- Script for "bootstrap" functionality -->
+	
 	<script src="js/bootstrap.min.js"></script>	
 	...
 </body>
