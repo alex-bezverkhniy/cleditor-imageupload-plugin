@@ -1,13 +1,15 @@
-This is simple plug-in for CLEditor. Allows to download and use the downloaded pictures. 
+#cleditor-imageupload-plugin
 
-Usage:
+This is simple plug-in for [CLEditor](http://premiumsoftware.net/cleditor) simple, lightweight jQuery plugin (WYSIWYG editor). 
+
+This plugin allows to download and use the downloaded pictures.
+
+##Usage:
 
 Add to your .html file next several lines.
 
-to "head" path:
-<head>
-	...
-	
+to "&lt;head&gt;" path:
+```html
 	<link rel="stylesheet" media="screen" href="css/bootstrap.css"/>	
 	<link rel="stylesheet" href="js/cleditor/jquery.cleditor.css" type="text/css">
 
@@ -26,15 +28,12 @@ to "head" path:
 			$("#input").cleditor();
      });
    </script>
-	...
-</head>
+```
 
-to "body" path:
 
-<body>
-	...
-	<textarea id="input" name="input"></textarea>
-	
+to "&lt;body&gt;" path:	
+```html
+	<textarea id="input" name="input"></textarea>	
 	<script src="js/bootstrap.min.js"></script>	
-	...
-</body>
+```	
+	
